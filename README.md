@@ -10,13 +10,8 @@ similar y traducirlos en perfiles y estrategias de marketing concretas.
 ## Estructura del proyecto
 
 ```
-├── Segmentacion_de_clientes_2.0.ipynb   # Versión actual (2.0) del análisis
+├── Segmentacion_de_clientes_2.0.ipynb   # Notebook principal (versión 2.0)
 ├── Mall_Customers.csv                   # Dataset
-├── src/
-│   └── segmentacion_de_clientes_2_0.py  # Exportación .py del notebook 2.0
-├── versiones_anteriores/
-│   ├── v1_segmentacion_ecommerce.ipynb  # v1: K-Means, K-Means++, jerárquico, bisecting
-│   └── v2_segmentacion_mujeres.ipynb    # v2: análisis enfocado solo en clientas
 ├── requirements.txt
 └── README.md
 ```
@@ -65,13 +60,8 @@ jupyter notebook Segmentacion_de_clientes_2.0.ipynb
 También puede abrirse en Google Colab subiendo el notebook junto con
 `Mall_Customers.csv`.
 
-> Los notebooks de `versiones_anteriores/` leen `Mall_Customers.csv` desde su
-> propia carpeta; para ejecutarlos, copia el CSV allí o ejecútalos desde la raíz.
-
 ## Historial
 
-Este repositorio unifica tres repositorios previos:
-
-- `Segmentacion-de-clientes-para-ecommerce` → v1
-- `Segmentaci-n-de-Clientes-y-Dise-o-de-Campa-as-de-Marketing` → v2
-- `customer-segmentation-marketing-2` → copia idéntica de la v2
+Este repositorio unifica tres repositorios previos. Las versiones anteriores
+(v1 enfocada en e-commerce y v2 enfocada solo en clientas) fueron reemplazadas
+por la versión 2.0 y se conservan únicamente en el historial de git.
