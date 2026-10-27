@@ -1,0 +1,7 @@
+# Archivos generados al ejecutar el notebook
+clientes_kmeans_perfil_*.csv
+clientes_con_perfiles.xlsx
+
+.ipynb_checkpoints/
+__pycache__/
+.venv/
